@@ -1,0 +1,48 @@
+/* our start */
+#our{
+    margin-bottom: 128px;
+}
+#our h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #282938;
+  padding: 128px 0 16px 0;
+}
+#our h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #282938;
+  opacity: 0.8;
+  margin-bottom: 32px;
+}
+#our h4 {
+  font-size: 38px;
+  font-weight: 600;
+  color: #282938;
+  margin: 42px 0 32px 0;
+}
+#our h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #282938;
+  opacity: 0.7;
+}
+#our h5 ul {
+  list-style: disc;
+  padding-left: 15px;
+  margin: 24px 0;
+}
+#our h5 ul li {
+  display: list-item;
+  padding: 6px 0;
+}
+#our img:nth-child(7) {
+  margin: 32px 0 0 0;
+}
+@media (max-width: 991px) {
+  #our h2 {
+    font-size: 36px;
+    padding-top: 48px;
+  }
+}
+/* our end */

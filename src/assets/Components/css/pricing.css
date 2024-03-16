@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* pricing start */
+#pricing {
+  padding: 128px 0;
+}
+#pricing h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #282938;
+  margin-bottom: 16px;
+}
+#pricing h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #282938;
+  opacity: 0.7;
+  margin-bottom: 64px;
+}
+#pricing .box {
+  background-color: #f4f6fc;
+  padding: 64px 0 64px 48px;
+  border-radius: 12px;
+  margin-bottom: 18px;
+  transition: 1s;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+#pricing .box:hover {
+  background: #1c1e53 url(https://i.postimg.cc/T1ZS26x4/pricing.png) no-repeat
+    center;
+  background-position: top;
+}
+#pricing h4 {
+  font-size: 38px;
+  font-weight: 600;
+  color: #282938;
+  display: inline-block;
+}
+#pricing span {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #2405f2;
+  margin-left: 8px;
+}
+#pricing h5 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #282938;
+  margin: 20px 0 8px 0;
+}
+#pricing h6 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #282938;
+  opacity: 0.7;
+  margin-bottom: 78px;
+}
+#pricing ul li {
+  font-size: 16px;
+  font-weight: 400;
+  color: #282938;
+  line-height: 28px;
+  margin: 10px 0;
+}
+#pricing ul li img {
+  margin-right: 12px;
+}
+#pricing ul li {
+  display: block !important;
+}
+#pricing ul li .disabled {
+  margin-left: 0;
+  color: rgba(40, 41, 56, 0.7);
+  mix-blend-mode: luminosity;
+}
+#pricing button {
+  width: 254px;
+  height: 64px;
+  text-align: center;
+  border: none;
+  color: #f4f6fc;
+  background-color: #282938;
+  margin-left: 10px;
+  border-radius: 51px;
+  -webkit-border-radius: 51px;
+  -moz-border-radius: 51px;
+  -ms-border-radius: 51px;
+  -o-border-radius: 51px;
+}
+#pricing button a {
+  color: #f4f6fc;
+}
+#pricing #box1 button {
+  margin-top: 110px;
+}
+#pricing .box:hover h4,
+#pricing .box:hover span,
+#pricing .box:hover h5,
+#pricing .box:hover h6,
+#pricing .box:hover ul li {
+  color: white;
+}
+#pricing #box2 button {
+  margin-top: 110px;
+}
+#pricing .box:hover button {
+  background-color: #fcd980;
+  color: #282938;
+}
+#pricing #box2 h6 {
+  margin-bottom: 49px;
+}
+#pricing #box3 button {
+  margin-top: 70px;
+}
+#pricing #box3 button a {
+  text-decoration: none !important;
+}
+@media (min-width: 1400px) {
+  #pricing button {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 991px) {
+  #pricing {
+    padding: 24px 0 96px 0;
+  }
+  #pricing h2 {
+    font-size: 45px;
+  }
+  #pricing .box {
+    text-align: center;
+    padding-left: 0;
+  }
+  #pricing button {
+    margin-left: 0;
+  }
+}
+/* pricing end */
+

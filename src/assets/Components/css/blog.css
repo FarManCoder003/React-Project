@@ -1,0 +1,44 @@
+/* blog start */
+#blog {
+  margin: 128px 0;
+}
+#blog h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #282938;
+  margin-bottom: 24px;
+}
+#blog h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #282938;
+  opacity: 0.7;
+  margin: 40px 0 16px 0;
+}
+#blog h4 {
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #282938;
+  margin-bottom: 16px;
+}
+#blog p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #282938;
+  opacity: 0.7;
+  padding-right: 10px;
+  margin-bottom: 32px;
+}
+#blog img {
+  padding-top: 48px;
+}
+#blog a {
+  color: black;
+}
+#blog a img {
+  padding: 0;
+  margin-left: 15px;
+}
+/* our end */
