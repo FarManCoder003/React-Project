@@ -14,25 +14,25 @@ const Navtop = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Link to="/">
-                <a href="#">Home</a>
+              <Link to="/" href="#">
+                  <a href="#">Home</a>
               </Link>
-              <Link to="/Aboutus">
+              <Link to="/Aboutus" href="#">
                 <a href="#">About Us</a>
               </Link>
-              <Link to="/Features">
+              <Link to="/Features" href="#">
                 <a href="#">Features</a>
               </Link>
-              <Link to="/Pricing">
+              <Link to="/Pricing" href="#">
                 <a href="#">Pricing</a>
               </Link>
-              <Link to="/Faq">
+              <Link to="/Faq" href="#">
                 <a href="#">Work</a>
               </Link>
-              <Link to="/Blog">
+              <Link to="/Blog" href="#">
                 <a href="#">Blog</a>
               </Link>
-              <Link to="/Contactus">
+              <Link to="/Contactus" href="#">
                 <button>Contact Us</button>
               </Link>
             </Nav>
