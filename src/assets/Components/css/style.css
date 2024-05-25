@@ -371,6 +371,7 @@
   padding: 96px 96px 261px 96px;
 }
 #ask .ask_card_l img {
+  width:100%;
   position: absolute;
   z-index: -9999;
   top: 0;
